@@ -1,0 +1,14 @@
+# Patient-level data, frozen datasets, caches, and outputs must never be committed.
+*.xlsx
+*.xls
+*.csv
+*.pkl
+*.parquet
+*_INTERNAL*
+cache_aes_exports/
+output_ites/
+output_aes_cardiac/
+output_publication/
+AE_freeze_v*/
+adjudication*/
+.ipynb_checkpoints/
